@@ -21,7 +21,7 @@
 			return;
 		}
 
-		fetch('http://localhost/es/quizMasterApi/login.php', {
+		fetch('http://localhost/backend-quiz-daver/backend-quizSvelte/login.php', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'

@@ -25,7 +25,7 @@
 			return;
 		}
 
-		fetch('http://localhost/es/quizMasterApi/create-user.php', {
+		fetch('http://localhost/backend-quiz-daver/backend-quizSvelte/create-user.php', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'

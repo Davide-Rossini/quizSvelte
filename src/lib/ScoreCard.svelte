@@ -8,7 +8,7 @@
 
 	const uploadScore = (idUser, idQuiz, score) => {
 		console.log('caricando: ', idUser, idQuiz, score);
-		fetch('http://localhost/es/quizMasterApi/post-score.php', {
+		fetch('http://localhost/backend-quiz-daver/backend-quizSvelte/post-score.php', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
